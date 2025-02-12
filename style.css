@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #464646; /* Fundo conforme especificado */
+    margin: 0;
+    padding: 0;
+    color: white; /* Texto branco */
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #585a4d; /* Fundo do container conforme especificado */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile {
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 100px;
+    border-radius: 50%;
+}
+
+h1 {
+    margin: 10px 0;
+    font-size: 24px;
+    color: #cfc671; /* Título conforme especificado */
+}
+
+p {
+    font-size: 14px;
+    color: #cfc671; /* Texto do parágrafo conforme especificado */
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.btn {
+    display: block;
+    padding: 10px;
+    background: #e6d85b; /* Botões conforme especificado */
+    color: black; /* Texto dos botões em preto */
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #cfc036; /* Amarelo mais escuro para o efeito hover */
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #585a4d; /* Cor do texto do rodapé */
+}
+
+/* Estilos Responsivos */
+@media (max-width: 600px) {
+    .container {
+        margin: 20px auto;
+        padding: 10px;
+    }
+
+    .logo {
+        width: 80px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    .btn {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    footer {
+        font-size: 10px;
+    }
+}
