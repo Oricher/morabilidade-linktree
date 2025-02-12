@@ -10,14 +10,14 @@ body {
 .container {
     max-width: 400px;
     margin: 50px auto;
-    padding: 20px;
+    padding: 40px 20px; /* Aumenta o padding superior e inferior */
     background: #585a4d; /* Fundo do container conforme especificado */
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .profile {
-    margin-bottom: 20px;
+    margin-bottom: 30px; /* Aumenta o espaçamento entre os elementos */
 }
 
 .logo {
@@ -39,7 +39,7 @@ p {
 .links {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 30px; /* Aumenta o espaçamento entre os links */
 }
 
 .btn {
@@ -58,7 +58,7 @@ p {
 }
 
 footer {
-    margin-top: 20px;
+    margin-top: 30px; /* Aumenta o espaçamento acima do rodapé */
     font-size: 12px;
     color: #585a4d; /* Cor do texto do rodapé */
 }
@@ -67,7 +67,7 @@ footer {
 @media (max-width: 600px) {
     .container {
         margin: 20px auto;
-        padding: 10px;
+        padding: 20px 10px; /* Reduz o padding para telas menores */
     }
 
     .logo {
@@ -82,12 +82,17 @@ footer {
         font-size: 12px;
     }
 
+    .links {
+        gap: 20px; /* Ajusta o espaçamento para telas menores */
+    }
+
     .btn {
         font-size: 14px;
         padding: 8px;
     }
 
     footer {
+        margin-top: 20px;
         font-size: 10px;
     }
 }
